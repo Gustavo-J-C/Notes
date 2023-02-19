@@ -8,7 +8,6 @@ import EditTask from './src/screens/EditTask';
 import AddTask from './src/screens/AddTask';
 import Preview from './src/screens/Preview';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { FlatList } from 'react-native-gesture-handler';
 import Login from './src/screens/login';
 import Signup from './src/screens/signup';
 
@@ -24,6 +23,7 @@ export default function App() {
       <Drawer.Navigator>
         <Drawer.Screen name="Home" component={TaskList} 
           options={{headerShown: false}}/>
+        api.isSign ?
         <Drawer.Screen name="Feed" component={Login}
           options={{headerShown: false}} />
         <Drawer.Screen name="Messages" component={Signup}
