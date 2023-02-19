@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "tasks",
-    "slug": "tasks",
-    "version": "1.0.0",
+    "name": "Anotações",
+    "slug": "TODO",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#252525"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,10 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "versionCode": 13,
+      "package": "com.chmhuster.TODO"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6ac4b69-b80b-4978-8376-550e04eb5670"
+      }
     }
   }
 }
